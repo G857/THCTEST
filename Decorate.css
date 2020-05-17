@@ -1,0 +1,98 @@
+*{
+    margin :0;
+    padding: 0;
+}
+body{
+    background: rgb(244,244,246)
+
+}
+header {
+    background: rgb(40,133,202);
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+/*第二部分图片样式*/
+.Dre img{
+    padding-top: 44px;
+    width: 100%;
+    margin-bottom: -5px;
+}
+/*底部整体样式*/
+.For ul{
+    display: table;
+    background-color: black;
+    width: 100%;
+    margin-top: -16px;
+    /*height: 100px;*/
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+}
+/*底部图标大小样式*/
+.For li img{
+    width: 20px;
+    height: 20px;
+}
+/*图标及文字样式*/
+.For li{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+/*将底部文字由内联标签转为块级标签*/
+.For li span{
+    display: block;
+    font-size: 10px;
+}
+.For a{
+    text-decoration: none;
+
+}
+/*底部固定时遮盖部分显示调整*/
+/*.Qb{*/
+    /*padding-bottom: 85px;*/
+/*}*/
+.Rt{
+    background-color: white;
+    height: 190px;
+}
+.Rt img{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.Rt span{
+    text-align: center;
+    display: block;
+
+}
+/*三个牌子创业者的css*/
+/*.Bv ul{*/
+    /*display: table;*/
+/*}*/
+/*.Bv li{*/
+    /*display: table-cell;*/
+    /*width: 30%;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*color: white;*/
+/*}*/
+/*.Bv li span{*/
+    /*display: block;*/
+    /*color: black;*/
+    /*margin-top: 20px;*/
+    /*position: relative;*/
+/*}*/
+.Dc {
+    background: rgb(244,244,246)
+}
+
